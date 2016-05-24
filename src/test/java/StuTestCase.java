@@ -39,5 +39,19 @@ public class StuTestCase {
 		int res=obj.countAvg(10, 20, 30);
 		Assert.assertEquals(res, 50);
 	}
+	
+	@Test
+	public void testCountAvg3() 
+	{
+		int res=obj.countAvg(10, 20, 30);
+		Assert.assertEquals(res, 20);
+	}
+	
 
+	@Test
+	public void testCountAvg2() 
+	{
+		int res=obj.countAvg(10, 20, 30);
+		Assert.assertEquals(res, 60);
+	}
 }
